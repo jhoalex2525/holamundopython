@@ -86,6 +86,7 @@
 contador = 0
 suma = 0
 while(contador>=0):
+    suma+=contador
     contador = int(input("Digite un número: "))
-    suma+=contador    
+        
 print(f'La suma es: {suma}')
