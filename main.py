@@ -83,10 +83,10 @@
 # else:
 #     print('Terminó el ciclo')
 
+# Ejercicio sumar números positivos
 contador = 0
 suma = 0
 while(contador>=0):
     suma+=contador
-    contador = int(input("Digite un número: "))
-        
+    contador = int(input("Digite un número: "))        
 print(f'La suma es: {suma}')
